@@ -14,10 +14,10 @@ const IndexPage = () => {
       <p className="m-2 font-display text-center text-xl">Full-Stack Development And More</p>
       <div className="horizontal-line m-2"></div>
       <nav className="m-1 flex flex-col">
-        <a href="/about" className="m-1 font-display blue-underline text-center text-2xl">About Me</a>
-        <a href="/resume" className="m-1 font-display blue-underline text-center text-2xl">Resume</a>
-        <a href="/projects" className="m-1 font-display blue-underline text-center text-2xl">Projects</a>
-        <a href="/blog" className="m-1 font-display blue-underline text-center text-2xl">Blog</a>
+        <a href="/about" className="m-4 font-display blue-underline text-center text-2xl">About Me</a>
+        <a href="/resume" className="m-4 font-display blue-underline text-center text-2xl">Resume</a>
+        <a href="/projects" className="m-4 font-display blue-underline text-center text-2xl">Projects</a>
+        <a href="/blog" className="m-4 font-display blue-underline text-center text-2xl">Blog</a>
       </nav>
     </div>
   )
