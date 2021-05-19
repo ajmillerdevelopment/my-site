@@ -6,7 +6,7 @@ const resume = () => {
         <div className="w-screen flex flex-col items-center min-h-screen bg-backgroundGrey">
            <Header/>
            <h2 className="font-display text-center text-4xl mt-3 blue-underline">Resume</h2>
-           <p className="font-body m-3">You can find a PDF copy of my resume <a href={resumeCopy} className="text-highlightBlue">here.</a></p>
+           <p className="font-body m-3">You can find a PDF copy of my resume <a href={resumeCopy} className="text-highlightBlue blue-underline">here.</a></p>
            <div className="w-screen p-8">
            <h3 className="font-display text-center text-2xl">Skills</h3>
            <h4 className="font-body text-lg blue-underline">Core Skills</h4>
