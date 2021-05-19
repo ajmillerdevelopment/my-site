@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../comps/Header'
 const resume = () => {
     return(
-        <h1>Resume</h1>
+        <Header/>
     )
 }
 export default resume

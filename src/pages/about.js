@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../comps/Header'
 const about = () => {
     return(
-        <h1>About</h1>
+        <Header/>
     )
 }
 export default about

@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../comps/Header'
 const projects = () => {
     return(
-        <h1>Projects</h1>
+        <Header/>
     )
 }
 export default projects

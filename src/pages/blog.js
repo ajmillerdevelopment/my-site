@@ -1,7 +1,8 @@
 import React from 'react'
+import Header from '../comps/Header'
 const blog = () => {
     return(
-        <h1>blog</h1>
+        <Header/>
     )
 }
 export default blog
