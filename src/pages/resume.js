@@ -7,7 +7,7 @@ const resume = () => {
            <Header/>
            <h2 className="font-display text-center text-4xl mt-3 blue-underline">Resume</h2>
            <p className="font-body m-3">You can find a PDF copy of my resume <a href={resumeCopy} className="text-highlightBlue blue-underline">here.</a></p>
-           <div className="w-screen p-8">
+           <div className="w-screen sm:max-w-prose p-8">
            <h3 className="font-display text-center text-2xl">Skills</h3>
            <h4 className="font-body text-lg blue-underline">Core Skills</h4>
             <ul>
