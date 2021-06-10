@@ -28,4 +28,24 @@
             border-width: 0px;
         }
     }
+    .fade-frame {
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    .fade-inner {
+        animation-name: fade;
+        animation-duration: 2s;
+        aniation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes fade {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
 }
