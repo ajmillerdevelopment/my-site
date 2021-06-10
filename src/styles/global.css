@@ -48,4 +48,32 @@
             opacity: 100%;
         }
     }
+    .lbounce {
+        display: inline-block;
+        animation: lbounce 1s infinite; 
+    }
+    @keyframes lbounce {
+      0%, 100% {
+        transform: translateX(15%);
+        animationTimingFunction: cubic-bezier(0.8, 0, 1, 1);
+      }
+      50% {
+        transform: translateX(-15%);
+        animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
+      }
+    }
+    .rbounce {
+        display: inline-block;
+        animation: rbounce 1s infinite; 
+    }
+    @keyframes rbounce {
+      0%, 100% {
+        transform: translateX(-20%);
+        animationTimingFunction: cubic-bezier(0.8, 0, 1, 1);
+      }
+      50% {
+        transform: translateX(10%);
+        animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
+      }
+    }
 }

@@ -9,7 +9,7 @@ const IndexPage = () => {
           <Header/>
           <img src={Headshot} className="m-1 rounded-full border-4 border-black w-1/2 h-auto sm:max-w-xs" alt="My headshot" />
           <p className="m-1 font-display text-center text-5xl sm:text-2xl">Full-Stack Engineer</p>
-          <p className="font-display text-center text-xl sm:text-lg"><span className="text-highlightBlue text-shadow-s text-2xl">☛</span> Seeking Employment <span className="text-highlightBlue text-shadow-s text-2xl">☚</span></p>
+          <p className="font-display text-center text-xl sm:text-lg"><span className="text-highlightBlue lbounce text-shadow-s text-2xl">☛</span> Seeking Employment <span className="text-highlightBlue rbounce text-shadow-s text-2xl">☚</span></p>
           <div className="horizontal-line sm:max-w-xl m-2 mb-1"></div>
           <p className="mb-1 font-display text-center text-8xl sm:text-6xl">React</p>
           <p className="m-1 font-display text-center text-5xl sm:text-4xl">JavaScript</p>
