@@ -28,4 +28,52 @@
             border-width: 0px;
         }
     }
+    .fade-frame {
+        animation-name: fade;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    .fade-inner {
+        animation-name: fade;
+        animation-duration: 2s;
+        aniation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes fade {
+        from {
+            opacity: 0%;
+        }
+        to {
+            opacity: 100%;
+        }
+    }
+    .lbounce {
+        display: inline-block;
+        animation: lbounce 1s infinite; 
+    }
+    @keyframes lbounce {
+      0%, 100% {
+        transform: translateX(15%);
+        animationTimingFunction: cubic-bezier(0.8, 0, 1, 1);
+      }
+      50% {
+        transform: translateX(-15%);
+        animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
+      }
+    }
+    .rbounce {
+        display: inline-block;
+        animation: rbounce 1s infinite; 
+    }
+    @keyframes rbounce {
+      0%, 100% {
+        transform: translateX(-20%);
+        animationTimingFunction: cubic-bezier(0.8, 0, 1, 1);
+      }
+      50% {
+        transform: translateX(10%);
+        animationTimingFunction: cubic-bezier(0, 0, 0.2, 1);
+      }
+    }
 }
