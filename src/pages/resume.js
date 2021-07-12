@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../comps/Header'
-import resumeCopy from '../files/MasterResume(1).pdf'
+import resumeCopy from '../files/MasterResume.pdf'
 const resume = () => {
     return(
         <div className="w-screen flex flex-col items-center min-h-screen bg-backgroundGrey">
