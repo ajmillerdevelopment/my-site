@@ -11,7 +11,7 @@ const IndexPage = () => {
           <p className="m-1 font-display text-center text-5xl sm:text-2xl">Full-Stack Engineer</p>
           <p className="font-display text-center text-xl sm:text-lg"><span className="text-highlightBlue lbounce text-shadow-s text-2xl">☛</span> Seeking Employment <span className="text-highlightBlue rbounce text-shadow-s text-2xl">☚</span></p>
           <div className="horizontal-line sm:max-w-xl m-2 mb-1"></div>
-          <p className="mb-1 font-display text-center text-8xl sm:text-6xl">React</p>
+          <p className="mb-1 font-display text-center text-8xl sm:text-7xl">React</p>
           <p className="m-1 font-display text-center text-5xl sm:text-4xl">JavaScript</p>
           <p className="m-2 font-display text-center text-xl sm:text-lg">Full-Stack Development And More</p>
           <div className="horizontal-line sm:max-w-xl  m-2"></div>

@@ -25,12 +25,21 @@ const resume = () => {
                 <li className="font-body">PostgreSQL</li>
                 <li className="font-body">Python</li>
                 <li className="font-body">Heroku</li>
+                <li className="font-body">GraphQL</li>
             </ul>
             </div>
             <h3 className="font-display mb-2 text-center text-2xl">Education</h3>
             <h4 className="m-2 font-body text-lg"> <span className="blue-underline">Software Engineering Immersive - General Assembly</span><span className="italic m-4">2021</span> </h4>
             <h4 className="m-2 font-body text-lg"> <span className="blue-underline">English B.A. - University of California, Santa Barbara</span><span className="italic m-4">2016-2020</span> </h4>
            <h3 className="font-display m-2 text-center text-2xl">Experience</h3>
+           <h4 className="m-4 font-body text-lg"> <span className="blue-underline">Freelance Web Developer - DC Jam Records</span><span className="italic m-4">2021</span> </h4>
+           <ul className="list-disc w-screen max-w-prose">
+               <li className="font-body">Was contracted to build a new front-end for a pre-existing Wordpress site. </li>
+               <li className="font-body">New frontend was built with Gatsby.js (React) and Tailwind CSS. </li>
+               <li className="font-body">Site was deployed via cPanel and integrated with pre-existing Wordpress backend.</li>
+               <li className="font-body">irst client project completed for pay, learned about both building sites to client specification and also about Wordpress, cPanel, and Docker (used for testing). 
+</li>
+           </ul>
            <h4 className="m-4 font-body text-lg"> <span className="blue-underline">Shipping and QA Manager - Taran Tactical Innovations</span><span className="italic m-4">2019-2021</span> </h4>
            <ul className="list-disc w-screen max-w-prose">
                <li className="font-body">Transferred the entire company to Trello for tracking inventory and project management</li>
